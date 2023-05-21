@@ -1,0 +1,166 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+#body{
+    background-image: url(/imagens/c386392692fc638b9b3c22ab5dceb784.gif);
+}
+#menuinicial{
+    background-image: url(/imagens/gifs-de-estrelas-caindo-19.gif);
+    height: 300px;
+    width: 100%;
+   }
+
+#tituloinicial{
+    color: wheat;
+    font-weight: bolder;
+   padding: 30px 100px;
+   font-size: 60px;
+   text-align: center;
+}
+
+#textoinicial{
+    color: wheat;
+    padding: 0px 100px;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#menufechado{
+    background-image: url(/imagens/3dLI.gif)
+    
+}
+
+.menuinformacional{
+    
+    grid-template-columns: 50% 50%;
+    display: grid;
+    }
+
+#image{
+        height: 500px;
+        width: 500px;
+    
+    }
+
+#h1menu,  #pmenu {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+    font-size: 20px;
+    border: 1px solid blanchedalmond;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#tituloicone{
+    background-image: url(/imagens/c386392692fc638b9b3c22ab5dceb784.gif);
+    text-align: center;
+}
+
+.iconegalaxy{
+    height: 45px;
+    width: 45px;
+}
+
+#menuinformacional2{
+    background-image: url(/imagens/c386392692fc638b9b3c22ab5dceb784.gif);
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+#pmenu2{
+    display: flex;
+    align-items: center;
+}
+
+.icone{
+    margin:50px 0px 50px 100px;
+    padding-right: 10px;
+}
+
+#tituloicone{
+    margin: auto;
+    align-items: center;
+    color: wheat;
+}
+.texticone{
+    display: flex;
+    align-items: center;
+    background-image: url(/imagens/c386392692fc638b9b3c22ab5dceb784.gif);
+    color: wheat;
+}
+
+
+#titulocarrossel{
+    color: wheat;
+    padding-top: 10px;
+    
+}
+#menucarrossel{
+    display: grid;
+    grid-auto-flow: column;
+    background-image: url(/imagens/c386392692fc638b9b3c22ab5dceb784.gif);
+}
+.iconeplaneta{
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+#ic9{
+    padding-left: 0px;
+}
+#ic4, #ic5, #ic6,  #ic0{
+    display: none;
+}
+
+.seta{
+    margin-top: 50%;
+}
+
+#forms{
+    text-align: center;
+    color: wheat;
+    background-image: url(/imagens/LH1d.gif)
+    
+}
+
+input {
+    margin-top: 40px;
+     width: 500px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#text{
+    margin-top: 40px;
+    width: 500px;
+    height: 70px;
+}
+
+
+
+button{
+    background-color: tomato;
+    height: 50px;
+    width: 300px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:tomato;
+    color: wheat;
+    transform: translateY(-7px);
+    box-shadow: 0px 20px 30px wheat;
+}

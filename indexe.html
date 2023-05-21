@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5490ac949a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/estilo.css">
+
+    
+
+    <title>Planetas habitaveis </title>
+</head>
+<body id="body">
+    <!--Menu Inicial-->
+    <div id="menuinicial">
+        <h1 id="tituloinicial">Exoplanetas</h1>
+        <p id="textoinicial">Esses planetas que se encontram fora do nosso Sistema Solar, <br> 
+            na órbita de outras estrelas, são chamados de exoplanetas. <br>
+            </p>
+    </div>
+    <!--Menu Informações-->
+    <div id="menufechado">
+        <div class="menuinformacional">
+            <div id="h1menu">
+                
+                <p><img  id="image" src="./imagens/1440px-kepler22b-artwork.jpg" alt=""></p>
+                <h1 >Kepler-22b</h1>  
+                <p >Este planeta está a 600 anos-luz de distância da Terra, <br>
+                 na constelação Cygnus. </p>
+            </div>
+            <div id="pmenu">
+                <p><img id="image" src="./imagens/1920px-this-artists-concept-depicts-kepler-62f.jpg" alt=""></p>
+                <h1  >Kepler-62f</h1>
+            <p >Este planeta é aproximadamente 40% maior que a Terra.</p>
+            </div>
+            
+        </div>
+        <div id="tituloicone">
+            <h1> <img  class="iconegalaxy" src="./icones/icons8-galáxia-64.png" alt=""> Definições de Exoplanetas  <img  class="iconegalaxy" src="./icones/icons8-galáxia-64.png" alt=""></h1>
+        </div>
+        
+        <div id="menuinformacional2">
+
+            
+            <div id="pmenu2">
+                    
+                <p class="texticone"><img class="icone" src="./icones/icons8-estrela-sol-50.png" alt=""> Fora do Sistema solar</p>
+                <p class="texticone"> <img class="icone"src="./icones/icons8-globe-showing-americas-48.png" alt=""> Ter um tamanho parecido com o Planeta Terra</p>
+                <p class="texticone"> <img  class="icone"src="./icones/icons8-nasa-48.png" alt=""> A descoberta de exoplanetas intensificou o interesse na busca por vida extraterrestre.</p>
+            </div>
+          
+            
+        </div>
+      
+    </div>
+    <br> <br> <br>
+   
+     <!--Menu Carrossel-->
+    <div id="menusuperiorcarrossel" >
+        <div id="titulocarrossel">
+            <h1>Esses são alguns Exoplanetas:</h1>
+        </div>
+        <br>
+        <div id="menucarrossel">
+            <img id="ic0" onclick="RolarParaEsquerda()" class="seta" src="./icones/icons8-chevron-esquerda-100.png" alt="">
+            <img id="ic1" class="iconeplaneta" src="./planetas-img/1080px-gliese-832c.png" alt="">
+            <img id="ic2" class="iconeplaneta" src="./planetas-img/1620px-gliese-667-cc-sunset.png" alt="">
+            <img id="ic3" class="iconeplaneta" src="./planetas-img/1800px-pia23774-comparison-earth-keper1649c-20200415.jpg" alt="">
+            <img id="ic4" class="iconeplaneta" src="./planetas-img/1920px-kepler-452b-artist-concept.jpg" alt=""></p>
+            <img id="ic5" class="iconeplaneta" src="./planetas-img/1920px-kepler186f-artistconcept-20140417.jpg" alt="">
+            <img id="ic6" class="iconeplaneta" src="./planetas-img/artists-impression-of-proxima-centauri-b-shown-hypothetically-as-an-arid-rocky-super-earth.jpg" alt="">
+            <img id="ic9" class="seta" onclick="RolarParaDireta()"  src="./icones/icons8-avançar-100.png" alt="">
+        </div>
+        
+    </div>
+    <!--Menu Formulário-->
+    <div id="forms">
+        <form action="https://api.sheetmonkey.io/form/ordYnKnt8CH2P7fWzMqPz" method="post">
+            <input type="text" placeholder="Digite seu nome" name="Name" required> <br>
+            <input type="text" placeholder="Digite seu Email" name="Email" required> <br>
+            <textarea name="Comentario" placeholder="Deixe seu comentario..." id="text" cols="30" rows="10"></textarea> <br>
+            <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+            <button type="submit">Enviar</button>
+
+
+
+        </form>
+
+    </div>
+    <!--Menu For-->
+
+    <script src="indexe.js"></script>
+</body>
+</html>
